@@ -1,0 +1,16 @@
+C:\Repos\Code\Chapter02\Arrays\bin\Debug\net5.0\Arrays.exe
+C:\Repos\Code\Chapter02\Arrays\bin\Debug\net5.0\Arrays.deps.json
+C:\Repos\Code\Chapter02\Arrays\bin\Debug\net5.0\Arrays.runtimeconfig.json
+C:\Repos\Code\Chapter02\Arrays\bin\Debug\net5.0\Arrays.runtimeconfig.dev.json
+C:\Repos\Code\Chapter02\Arrays\bin\Debug\net5.0\Arrays.dll
+C:\Repos\Code\Chapter02\Arrays\bin\Debug\net5.0\ref\Arrays.dll
+C:\Repos\Code\Chapter02\Arrays\bin\Debug\net5.0\Arrays.pdb
+C:\Repos\Code\Chapter02\Arrays\obj\Debug\net5.0\Arrays.csprojAssemblyReference.cache
+C:\Repos\Code\Chapter02\Arrays\obj\Debug\net5.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\Code\Chapter02\Arrays\obj\Debug\net5.0\Arrays.AssemblyInfoInputs.cache
+C:\Repos\Code\Chapter02\Arrays\obj\Debug\net5.0\Arrays.AssemblyInfo.cs
+C:\Repos\Code\Chapter02\Arrays\obj\Debug\net5.0\Arrays.csproj.CoreCompileInputs.cache
+C:\Repos\Code\Chapter02\Arrays\obj\Debug\net5.0\Arrays.dll
+C:\Repos\Code\Chapter02\Arrays\obj\Debug\net5.0\ref\Arrays.dll
+C:\Repos\Code\Chapter02\Arrays\obj\Debug\net5.0\Arrays.pdb
+C:\Repos\Code\Chapter02\Arrays\obj\Debug\net5.0\Arrays.genruntimeconfig.cache

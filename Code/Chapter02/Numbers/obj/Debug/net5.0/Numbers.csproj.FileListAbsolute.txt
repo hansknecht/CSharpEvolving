@@ -1,0 +1,16 @@
+C:\Repos\Code\Chapter02\Numbers\bin\Debug\net5.0\Numbers.exe
+C:\Repos\Code\Chapter02\Numbers\bin\Debug\net5.0\Numbers.deps.json
+C:\Repos\Code\Chapter02\Numbers\bin\Debug\net5.0\Numbers.runtimeconfig.json
+C:\Repos\Code\Chapter02\Numbers\bin\Debug\net5.0\Numbers.runtimeconfig.dev.json
+C:\Repos\Code\Chapter02\Numbers\bin\Debug\net5.0\Numbers.dll
+C:\Repos\Code\Chapter02\Numbers\bin\Debug\net5.0\ref\Numbers.dll
+C:\Repos\Code\Chapter02\Numbers\bin\Debug\net5.0\Numbers.pdb
+C:\Repos\Code\Chapter02\Numbers\obj\Debug\net5.0\Numbers.csprojAssemblyReference.cache
+C:\Repos\Code\Chapter02\Numbers\obj\Debug\net5.0\Numbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\Code\Chapter02\Numbers\obj\Debug\net5.0\Numbers.AssemblyInfoInputs.cache
+C:\Repos\Code\Chapter02\Numbers\obj\Debug\net5.0\Numbers.AssemblyInfo.cs
+C:\Repos\Code\Chapter02\Numbers\obj\Debug\net5.0\Numbers.csproj.CoreCompileInputs.cache
+C:\Repos\Code\Chapter02\Numbers\obj\Debug\net5.0\Numbers.dll
+C:\Repos\Code\Chapter02\Numbers\obj\Debug\net5.0\ref\Numbers.dll
+C:\Repos\Code\Chapter02\Numbers\obj\Debug\net5.0\Numbers.pdb
+C:\Repos\Code\Chapter02\Numbers\obj\Debug\net5.0\Numbers.genruntimeconfig.cache

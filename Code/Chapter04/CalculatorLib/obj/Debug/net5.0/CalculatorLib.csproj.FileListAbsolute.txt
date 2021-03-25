@@ -1,0 +1,12 @@
+C:\Repos\Code\Chapter04\CalculatorLib\bin\Debug\net5.0\CalculatorLib.deps.json
+C:\Repos\Code\Chapter04\CalculatorLib\bin\Debug\net5.0\CalculatorLib.dll
+C:\Repos\Code\Chapter04\CalculatorLib\bin\Debug\net5.0\ref\CalculatorLib.dll
+C:\Repos\Code\Chapter04\CalculatorLib\bin\Debug\net5.0\CalculatorLib.pdb
+C:\Repos\Code\Chapter04\CalculatorLib\obj\Debug\net5.0\CalculatorLib.csprojAssemblyReference.cache
+C:\Repos\Code\Chapter04\CalculatorLib\obj\Debug\net5.0\CalculatorLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\Code\Chapter04\CalculatorLib\obj\Debug\net5.0\CalculatorLib.AssemblyInfoInputs.cache
+C:\Repos\Code\Chapter04\CalculatorLib\obj\Debug\net5.0\CalculatorLib.AssemblyInfo.cs
+C:\Repos\Code\Chapter04\CalculatorLib\obj\Debug\net5.0\CalculatorLib.csproj.CoreCompileInputs.cache
+C:\Repos\Code\Chapter04\CalculatorLib\obj\Debug\net5.0\CalculatorLib.dll
+C:\Repos\Code\Chapter04\CalculatorLib\obj\Debug\net5.0\ref\CalculatorLib.dll
+C:\Repos\Code\Chapter04\CalculatorLib\obj\Debug\net5.0\CalculatorLib.pdb

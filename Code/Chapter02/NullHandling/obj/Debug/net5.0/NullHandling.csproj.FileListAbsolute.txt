@@ -1,0 +1,16 @@
+C:\Repos\Code\Chapter02\NullHandling\bin\Debug\net5.0\NullHandling.exe
+C:\Repos\Code\Chapter02\NullHandling\bin\Debug\net5.0\NullHandling.deps.json
+C:\Repos\Code\Chapter02\NullHandling\bin\Debug\net5.0\NullHandling.runtimeconfig.json
+C:\Repos\Code\Chapter02\NullHandling\bin\Debug\net5.0\NullHandling.runtimeconfig.dev.json
+C:\Repos\Code\Chapter02\NullHandling\bin\Debug\net5.0\NullHandling.dll
+C:\Repos\Code\Chapter02\NullHandling\bin\Debug\net5.0\ref\NullHandling.dll
+C:\Repos\Code\Chapter02\NullHandling\bin\Debug\net5.0\NullHandling.pdb
+C:\Repos\Code\Chapter02\NullHandling\obj\Debug\net5.0\NullHandling.csprojAssemblyReference.cache
+C:\Repos\Code\Chapter02\NullHandling\obj\Debug\net5.0\NullHandling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\Code\Chapter02\NullHandling\obj\Debug\net5.0\NullHandling.AssemblyInfoInputs.cache
+C:\Repos\Code\Chapter02\NullHandling\obj\Debug\net5.0\NullHandling.AssemblyInfo.cs
+C:\Repos\Code\Chapter02\NullHandling\obj\Debug\net5.0\NullHandling.csproj.CoreCompileInputs.cache
+C:\Repos\Code\Chapter02\NullHandling\obj\Debug\net5.0\NullHandling.dll
+C:\Repos\Code\Chapter02\NullHandling\obj\Debug\net5.0\ref\NullHandling.dll
+C:\Repos\Code\Chapter02\NullHandling\obj\Debug\net5.0\NullHandling.pdb
+C:\Repos\Code\Chapter02\NullHandling\obj\Debug\net5.0\NullHandling.genruntimeconfig.cache

@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "Operators"
+		},
+		{
+			"path": "BooleanOperators"
+		},
+		{
+			"path": "BitWiseAndShiftOperators"
+		},
+		{
+			"path": "SelectionStatements"
+		},
+		{
+			"path": "IterationStatements"
+		},
+		{
+			"path": "CastingConverting"
+		},
+		{
+			"path": "HandlingExceptions"
+		},
+		{
+			"path": "Exercise02"
+		},
+		{
+			"path": "FizzBuzz"
+		}
+	],
+	"settings": {}
+}

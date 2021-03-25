@@ -1,0 +1,16 @@
+C:\Repos\Code\Chapter03\BitWiseAndShiftOperators\bin\Debug\net5.0\BitWiseAndShiftOperators.exe
+C:\Repos\Code\Chapter03\BitWiseAndShiftOperators\bin\Debug\net5.0\BitWiseAndShiftOperators.deps.json
+C:\Repos\Code\Chapter03\BitWiseAndShiftOperators\bin\Debug\net5.0\BitWiseAndShiftOperators.runtimeconfig.json
+C:\Repos\Code\Chapter03\BitWiseAndShiftOperators\bin\Debug\net5.0\BitWiseAndShiftOperators.runtimeconfig.dev.json
+C:\Repos\Code\Chapter03\BitWiseAndShiftOperators\bin\Debug\net5.0\BitWiseAndShiftOperators.dll
+C:\Repos\Code\Chapter03\BitWiseAndShiftOperators\bin\Debug\net5.0\ref\BitWiseAndShiftOperators.dll
+C:\Repos\Code\Chapter03\BitWiseAndShiftOperators\bin\Debug\net5.0\BitWiseAndShiftOperators.pdb
+C:\Repos\Code\Chapter03\BitWiseAndShiftOperators\obj\Debug\net5.0\BitWiseAndShiftOperators.csprojAssemblyReference.cache
+C:\Repos\Code\Chapter03\BitWiseAndShiftOperators\obj\Debug\net5.0\BitWiseAndShiftOperators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\Code\Chapter03\BitWiseAndShiftOperators\obj\Debug\net5.0\BitWiseAndShiftOperators.AssemblyInfoInputs.cache
+C:\Repos\Code\Chapter03\BitWiseAndShiftOperators\obj\Debug\net5.0\BitWiseAndShiftOperators.AssemblyInfo.cs
+C:\Repos\Code\Chapter03\BitWiseAndShiftOperators\obj\Debug\net5.0\BitWiseAndShiftOperators.csproj.CoreCompileInputs.cache
+C:\Repos\Code\Chapter03\BitWiseAndShiftOperators\obj\Debug\net5.0\BitWiseAndShiftOperators.dll
+C:\Repos\Code\Chapter03\BitWiseAndShiftOperators\obj\Debug\net5.0\ref\BitWiseAndShiftOperators.dll
+C:\Repos\Code\Chapter03\BitWiseAndShiftOperators\obj\Debug\net5.0\BitWiseAndShiftOperators.pdb
+C:\Repos\Code\Chapter03\BitWiseAndShiftOperators\obj\Debug\net5.0\BitWiseAndShiftOperators.genruntimeconfig.cache

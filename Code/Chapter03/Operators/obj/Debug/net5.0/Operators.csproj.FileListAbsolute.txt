@@ -1,0 +1,16 @@
+C:\Repos\Code\Chapter03\Operators\obj\Debug\net5.0\Operators.csprojAssemblyReference.cache
+C:\Repos\Code\Chapter03\Operators\obj\Debug\net5.0\Operators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\Code\Chapter03\Operators\obj\Debug\net5.0\Operators.AssemblyInfoInputs.cache
+C:\Repos\Code\Chapter03\Operators\obj\Debug\net5.0\Operators.AssemblyInfo.cs
+C:\Repos\Code\Chapter03\Operators\obj\Debug\net5.0\Operators.csproj.CoreCompileInputs.cache
+C:\Repos\Code\Chapter03\Operators\bin\Debug\net5.0\Operators.exe
+C:\Repos\Code\Chapter03\Operators\bin\Debug\net5.0\Operators.deps.json
+C:\Repos\Code\Chapter03\Operators\bin\Debug\net5.0\Operators.runtimeconfig.json
+C:\Repos\Code\Chapter03\Operators\bin\Debug\net5.0\Operators.runtimeconfig.dev.json
+C:\Repos\Code\Chapter03\Operators\bin\Debug\net5.0\Operators.dll
+C:\Repos\Code\Chapter03\Operators\bin\Debug\net5.0\ref\Operators.dll
+C:\Repos\Code\Chapter03\Operators\bin\Debug\net5.0\Operators.pdb
+C:\Repos\Code\Chapter03\Operators\obj\Debug\net5.0\Operators.dll
+C:\Repos\Code\Chapter03\Operators\obj\Debug\net5.0\ref\Operators.dll
+C:\Repos\Code\Chapter03\Operators\obj\Debug\net5.0\Operators.pdb
+C:\Repos\Code\Chapter03\Operators\obj\Debug\net5.0\Operators.genruntimeconfig.cache
