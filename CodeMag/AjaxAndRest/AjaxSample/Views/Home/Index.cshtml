@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Ajax Samples";
+}
+
+<h1>Ajax Samples</h1>
+<p>Bring up console window</p>
+
+<button type="button" onclick="get();">
+    Get Products
+</button>
+
+@section Scripts {
+    <script>
+        'use strict';
+
+        // const URL = "/resources/products.json";
+        const URL = "https://localhost:5001/api/product";
+
+        function get() {
+            let req = new XMLHttpRequest();
+
+            req.onreadystatechange = function() {
+                if (this.readyState===XMLHttpRequest.DONE && this.status === 200) {
+                    displayResponse(this);
+                }
+            }
+
+            req.open("GET", URL);
+
+            req.send();
+        }
+        function displayResponse(resp) {
+            console.log(resp);
+            console.log("");
+            console.log("responseText " + resp.responseText);
+            console.log("status " + resp.status.toString());
+            console.log("stausText " + resp.statusText);
+        }
+    </script>
+}
