@@ -80,5 +80,35 @@ namespace WebAPI.Controllers {
             return ret;
         }
 
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, Product entity) {
+            IActionResult ret = null;
+
+            try {
+                if (entity != null) {
+                    Product changed = _DbContext.Products.Find(id);
+                    // limited to a few fields, 
+                    // TODO: provide a more robust update process
+                    if (changed != null) {
+                        changed.name = entity.name;
+                        changed.productnumber = entity.productnumber;
+                        changed.modifieddate = DateTime.Now;
+                        _DbContext.Update(changed);
+                        _DbContext.SaveChanges();
+                        
+                        ret = StatusCode(StatusCodes.Status200OK, changed);                    
+                    } else {
+                        ret = StatusCode(StatusCodes.Status400BadRequest, $"Invalid {ENTITY_NAME} object passed to POST method.");
+                    }
+                } else {
+                    ret = StatusCode(StatusCodes.Status400BadRequest, $"Invalid {ENTITY_NAME} object passed to PUT method.");
+                }
+
+            } catch (Exception ex) {                    
+                ret = HandleException(ex, $"Exception trying to update {ENTITY_NAME} ID: {entity.productid.ToString()}.");
+            }
+
+            return ret;
+        }
     }
 }

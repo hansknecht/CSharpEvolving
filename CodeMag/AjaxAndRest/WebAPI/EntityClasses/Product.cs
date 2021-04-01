@@ -17,11 +17,17 @@ namespace WebAPI
         public string productnumber { get; set; }
         public string color { get; set; } 
         [Required]
+        public int safetystocklevel { get; set; }
+        [Required]
+        public int reorderpoint { get; set; }
+        [Required]
         public decimal standardcost { get; set; }
         [Required]
         public decimal listprice { get; set; }
         public string size { get; set; }
         public decimal? weight { get; set; }
+        [Required]
+        public int daystomanufacture { get; set; }
         public int? productsubcategoryid { get; set; }
         public int? productmodelid { get; set; }
         [Required]
@@ -32,12 +38,6 @@ namespace WebAPI
         public Guid rowguid { get; set; }
         [Required]
         public DateTime modifieddate { get; set; }
-        [Required]
-        public int safetystocklevel { get; set; }
-        [Required]
-        public int reorderpoint { get; set; }
-        [Required]
-        public int daystomanufacture { get; set; }
     }
 
 }
