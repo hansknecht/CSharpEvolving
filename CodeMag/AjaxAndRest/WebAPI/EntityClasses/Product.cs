@@ -32,6 +32,12 @@ namespace WebAPI
         public Guid rowguid { get; set; }
         [Required]
         public DateTime modifieddate { get; set; }
+        [Required]
+        public int safetystocklevel { get; set; }
+        [Required]
+        public int reorderpoint { get; set; }
+        [Required]
+        public int daystomanufacture { get; set; }
     }
 
 }

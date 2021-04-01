@@ -55,5 +55,30 @@ namespace WebAPI.Controllers {
             return ret;
         }
 
+        [HttpPost()]
+        public IActionResult Post(Product entity) {
+            IActionResult ret = null;
+
+            try {
+                if (entity != null) {
+                    entity.productsubcategoryid = 18;
+                    entity.productmodelid = 6;
+                    entity.rowguid = Guid.NewGuid();
+                    entity.modifieddate = DateTime.Now;
+
+                    _DbContext.Products.Add(entity);
+                    _DbContext.SaveChanges();
+
+                    ret = StatusCode(StatusCodes.Status201Created, entity);
+                } else {
+                    ret = StatusCode(StatusCodes.Status400BadRequest, $"Invalid {ENTITY_NAME} object passed to POST method.");
+                }
+            } catch (Exception ex) {
+                ret = HandleException(ex, $"Exception while trying to insert a new {ENTITY_NAME}.");
+            }
+
+            return ret;
+        }
+
     }
 }
