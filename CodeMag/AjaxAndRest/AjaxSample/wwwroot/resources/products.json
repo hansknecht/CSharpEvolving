@@ -1,0 +1,62 @@
+[
+    {
+        "productid": 680, 
+        "name": "HL Road Frame - Black, 58",
+        "productnumber": "FR-R92B-58",
+        "color": "Black",
+        "standardcost": 1059.31,
+        "listprice": 1431.50,
+        "sellstartdate": "2021-01-15",
+        "safetystocklevel": 10,
+        "reorderpoint": 2,
+        "daystomanufacture": 10
+    },
+    {
+        "productid": 707, 
+        "name": "Sport-100 Helmet, Red",
+        "productnumber": "HL-U509-R",
+        "color": "Red",
+        "standardcost": 13.08,
+        "listprice": 34.99,
+        "sellstartdate": "2021-01-15",
+        "safetystocklevel": 10,
+        "reorderpoint": 2,
+        "daystomanufacture": 10
+    },
+    {
+        "productid": 709, 
+        "name": "Mountain Bike Socks, M",
+        "productnumber": "SO-B909-M",
+        "color": "White",
+        "standardcost": 3.3963,
+        "listprice": 9.50,
+        "sellstartdate": "2021-01-15",
+        "safetystocklevel": 10,
+        "reorderpoint": 2,
+        "daystomanufacture": 10
+    },
+    {
+        "productid": 712, 
+        "name": "AWC Logo Cap",
+        "productnumber": "CA-1098",
+        "color": "Multi",
+        "standardcost": 6.9223,
+        "listprice": 8.99,
+        "sellstartdate": "2021-01-15",
+        "safetystocklevel": 10,
+        "reorderpoint": 2,
+        "daystomanufacture": 10
+    },
+    {
+        "productid": 821, 
+        "name": "Touring Front Wheel",
+        "productnumber": "FW-T905",
+        "color": "Black",
+        "standardcost": 96.7964,
+        "listprice": 218.01,
+        "sellstartdate": "2021-01-15",
+        "safetystocklevel": 10,
+        "reorderpoint": 2,
+        "daystomanufacture": 10
+    }
+]
