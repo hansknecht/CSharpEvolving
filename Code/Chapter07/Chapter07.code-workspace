@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "AseembliesAndNamespaces"
+		},
+		{
+			"path": "SharedLibrary"
+		},
+		{
+			"path": "DotNetCoreEverywhere"
+		}
+	],
+	"settings": {}
+}
