@@ -1,0 +1,122 @@
+﻿@{
+    ViewData["Title"] = "Ajax Samples";
+}
+
+<h1>Ajax Samples</h1>
+<p>Bring up console window</p>
+
+<form>
+    <div class="row">
+        <label for="productid">Product ID</label>
+        <input id="productid" name="productid" type="text" value="0" />
+    </div>
+    <div class="row">
+        <label for="name">Product Name</label>
+        <input id="name" name="name" type="text" value="A new product" />
+    </div>
+    <div class="row">
+        <label for="productnumber">Product Number</label>
+        <input id="productnumber" name="productnumber" type="text" value="NEW-999" />
+    </div>
+    <div class="row">
+        <label for="color">Color</label>
+        <input id="color" name="color" type="text" value="Red" />
+    </div>
+    <div class="row">
+        <label for="safetystocklevel">Safety Stock Level</label>
+        <input id="safetystocklevel" name="safetystocklevel" type="number" value="20" />
+    </div>
+    <div class="row">
+        <label for="reorderpoint">Reorder Point</label>
+        <input id="reorderpoint" name="reorderpoint" type="number" value="10" />
+    </div>
+    <div class="row">
+        <label for="standardcost">Standard Cost</label>
+        <input id="standardcost" name="standardcost" type="number" value="10.00" />
+    </div>
+    <div class="row">
+        <label for="listprice">List Price</label>
+        <input id="listprice" name="listprice" type="number" value="25.00" />
+    </div>
+    <div class="row">
+        <label for="size">Size</label>
+        <input id="size" name="size" type="text" value="Small" />
+    </div>
+    <div class="row">
+        <label for="weight">Weight</label>
+        <input id="weight" name="weight" type="number" value="10" />
+    </div>
+    <div class="row">
+        <label for="daystomanufacture">Days to Manufacture</label>
+        <input id="daystomanufacture" name="daystomanufacture" type="number" value="10" />
+    </div>
+    <div class="row">
+        <label for="sellstartdate">Sell Start Date</label>
+        <input id="sellstartdate" name="sellstartdate" type="text" value="1/15/2021" />
+    </div>
+    <div class="row">
+        <label id="message" class="infoMessage"></label>
+    </div>
+    <div class="row">
+        <label id="error" class="errorMessage"></label>
+    </div>
+    <div>
+        <button type="button" onclick="get();">
+            Get Products
+        </button>
+        <button type="button" onclick="getProduct();">
+            Get a Product
+        </button>
+        <button type="button" onclick="insertProduct();">
+            Insert Product
+        </button>
+        <button type="button" onclick="updateProduct();">
+            Update Product
+        </button>
+        <button type="button" onclick="deleteProduct();">
+            Delete Product
+        </button>
+    </div>
+</form>
+@section Scripts {
+    <script src="/js/ajax-common.js"></script>
+    <script src="/js/product.js"></script>
+    <script>
+        'use strict';
+
+        // const URL = "/resources/products.json";
+         const URL = "https://localhost:5001/api/product";
+
+        function get() {
+            let req = new XMLHttpRequest();
+
+            req.onreadystatechange = function() {
+                if (this.readyState===XMLHttpRequest.DONE && this.status === 200) {
+                    console.log(this);
+                    displayMessage("Products Retrieved")
+                }
+            }
+
+            req.open("GET", URL);
+
+            req.send();
+
+        }
+
+        function getProduct() {
+
+        }
+
+        function insertProduct() {
+
+        }
+
+        function updateProduct() {
+
+        }
+
+        function deleteProduct() {
+
+        }
+    </script>
+}

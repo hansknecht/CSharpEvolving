@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "WorkingWithFileSystems"
+		},
+		{
+			"path": "WorkingWithStreams"
+		}
+	],
+	"settings": {}
+}

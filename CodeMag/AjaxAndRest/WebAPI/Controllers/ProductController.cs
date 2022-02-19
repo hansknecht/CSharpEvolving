@@ -110,5 +110,27 @@ namespace WebAPI.Controllers {
 
             return ret;
         }
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id) {
+            IActionResult ret = null;
+            Product entity = null;
+
+            try {
+                entity = _DbContext.Products.Find(id);
+                if (entity != null) {
+                    _DbContext.Products.Remove(entity);
+                    _DbContext.SaveChanges();
+                    ret = StatusCode(StatusCodes.Status200OK, true);
+                } else {
+                    ret = StatusCode(StatusCodes.Status404NotFound, $"Can't find {ENTITY_NAME} ID: {id.ToString()} to delete.");
+                }
+                
+            }
+            catch (Exception ex) {
+                
+                ret = HandleException(ex, $"Exception trying to delete {ENTITY_NAME} ID: {id.ToString()}.");
+            }
+            return ret;
+        }
     }
 }

@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "AjaxAndRest/WebAPI"
+		},
+		{
+			"path": "AjaxAndRest/AjaxSample"
 		}
 	],
 	"settings": {}
