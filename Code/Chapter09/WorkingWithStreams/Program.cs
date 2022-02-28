@@ -4,6 +4,7 @@ using System.Xml;
 using static System.Console;
 using static System.Environment;
 using static System.IO.Path;
+using System.IO.Compression;
 
 namespace WorkingWithStreams
 {
@@ -14,6 +15,7 @@ namespace WorkingWithStreams
         {
             //WorkWithText();
             WorkWithXml();
+            WorkWithCompression ();
         }
 
         static void WorkWithText()
@@ -78,6 +80,47 @@ namespace WorkingWithStreams
                 {
                     xmlFileStream.Dispose();
                     WriteLine("The file stream's unmanaged resources have been disposed.");
+                }
+            }
+        }
+        static void WorkWithCompression()
+        {
+            string gzipFilePath = Combine(CurrentDirectory, "streams.gzip");
+
+            FileStream gzipFile = File.Create(gzipFilePath);
+
+            using (GZipStream compressor = new GZipStream(gzipFile, CompressionMode.Compress))
+            {
+                using (XmlWriter xmlGzip = XmlWriter.Create(compressor))
+                {
+                    xmlGzip.WriteStartDocument();
+                    xmlGzip.WriteStartElement("callsigns");
+                    foreach (string item in callsigns)
+                    {
+                        xmlGzip.WriteElementString("callsign", item);
+                    }
+                }
+            }
+            
+            WriteLine("{0} contains {1:N0} bytes.", gzipFilePath, new FileInfo(gzipFilePath).Length);
+            WriteLine($"The compressed contents:");
+            WriteLine(File.ReadAllText(gzipFilePath));
+
+            WriteLine("Reading the compressed XML file:");
+            gzipFile = File.Open(gzipFilePath, FileMode.Open);
+
+            using (GZipStream decompressor = new GZipStream(gzipFile, CompressionMode.Decompress))
+            {
+                using (XmlReader reader = XmlReader.Create(decompressor))
+                {
+                    while (reader.Read())
+                    {
+                        if ((reader.NodeType == XmlNodeType.Element) && (reader.Name == "callsign"))
+                        {
+                            reader.Read();
+                            WriteLine($"{reader.Value}");
+                        }   
+                    }
                 }
             }
         }
