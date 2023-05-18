@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33312.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperClasses", "HelperClasses\HelperClasses.csproj", "{5F4A8847-0395-462E-9095-F99F94B0FBDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperClassesTest", "HelperClassesTest\HelperClassesTest.csproj", "{101779F8-76D0-4308-A1A9-AC1279557BA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F4A8847-0395-462E-9095-F99F94B0FBDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4A8847-0395-462E-9095-F99F94B0FBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4A8847-0395-462E-9095-F99F94B0FBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4A8847-0395-462E-9095-F99F94B0FBDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101779F8-76D0-4308-A1A9-AC1279557BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101779F8-76D0-4308-A1A9-AC1279557BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101779F8-76D0-4308-A1A9-AC1279557BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101779F8-76D0-4308-A1A9-AC1279557BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D43CA147-DDED-4732-9E6F-AFC108960223}
+	EndGlobalSection
+EndGlobal
